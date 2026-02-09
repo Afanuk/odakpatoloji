@@ -131,6 +131,9 @@ const Grainient = ({
   useEffect(() => {
     if (!containerRef.current) return;
 
+    // Disable on mobile devices
+    if (window.innerWidth < 768) return;
+
     const renderer = new Renderer({
       webgl: 2,
       alpha: true,
