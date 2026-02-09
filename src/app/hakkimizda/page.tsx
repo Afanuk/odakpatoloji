@@ -50,6 +50,31 @@ export default function HakkimizdaPage() {
             <section className="py-20">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
+                        <div className="flex justify-center mb-12 relative isolate">
+                            {/* Sunburst Effect */}
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] -z-10 pointer-events-none overflow-hidden">
+                                <div
+                                    className="w-full h-full animate-[spin_60s_linear_infinite] opacity-20"
+                                    style={{
+                                        background: 'repeating-conic-gradient(from 0deg at 50% 50%, transparent 0deg, transparent 10deg, #7a1f2b 10.5deg, transparent 11deg)',
+                                        maskImage: 'radial-gradient(circle, black 0%, transparent 50%)',
+                                        WebkitMaskImage: 'radial-gradient(circle, black 0%, transparent 50%)'
+                                    }}
+                                />
+                            </div>
+
+                            <Image
+                                src="/MFKBiography.png"
+                                alt="Dr. Mehmet Fatih Kuyucuoğlu"
+                                width={300}
+                                height={300}
+                                className="rounded-full object-cover"
+                                style={{
+                                    maskImage: 'radial-gradient(circle, black 65%, transparent 75%)',
+                                    WebkitMaskImage: 'radial-gradient(circle, black 60%, transparent 70%)'
+                                }}
+                            />
+                        </div>
                         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
                             Dr. Mehmet Fatih Kuyucuoğlu
                         </h2>

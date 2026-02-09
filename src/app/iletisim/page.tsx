@@ -158,7 +158,7 @@ export default function IletisimPage() {
                                 <h2 className="text-3xl font-bold mb-8">İletişim Bilgileri</h2>
 
                                 <div className="space-y-6">
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <div className="flex items-start gap-4">
                                             <div className="w-12 h-12 bg-[#7a1f2b] rounded-full flex items-center justify-center flex-shrink-0">
                                                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -174,7 +174,7 @@ export default function IletisimPage() {
                                         </div>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <div className="flex items-start gap-4">
                                             <div className="w-12 h-12 bg-slate-600 rounded-full flex items-center justify-center flex-shrink-0">
                                                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -190,7 +190,7 @@ export default function IletisimPage() {
                                         </div>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <div className="flex items-start gap-4">
                                             <div className="w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center flex-shrink-0">
                                                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -213,7 +213,7 @@ export default function IletisimPage() {
                                         </div>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <div className="flex items-start gap-4">
                                             <div className="w-12 h-12 bg-[#7a1f2b] rounded-full flex items-center justify-center flex-shrink-0">
                                                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -9,7 +9,7 @@ export default function YenilendikPage() {
             <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/HaberlerPage.png"
+                        src="/HaberPage.png"
                         alt="Haberler"
                         fill
                         style={{ objectFit: 'contain', objectPosition: 'top' }}
@@ -21,7 +21,7 @@ export default function YenilendikPage() {
                         Yenilendik
                     </h1>
                     <p className="text-lg text-muted-foreground">
-                        15 Ocak 2026
+                        23 Ocak 2012
                     </p>
                 </div>
             </section>

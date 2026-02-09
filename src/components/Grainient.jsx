@@ -103,7 +103,7 @@ void main(){
 
 const Grainient = ({
   timeSpeed = 0.25,
-  colorBalance = -0.5,
+  colorBalance = 0.0,
   warpStrength = 1.0,
   warpFrequency = 5.0,
   warpSpeed = 2.0,

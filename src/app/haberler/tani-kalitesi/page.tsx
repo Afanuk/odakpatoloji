@@ -9,7 +9,7 @@ export default function TaniKalitesiPage() {
             <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/HaberlerPage.png"
+                        src="/HaberPage.png"
                         alt="Haberler"
                         fill
                         style={{ objectFit: 'contain', objectPosition: 'top' }}
@@ -21,7 +21,7 @@ export default function TaniKalitesiPage() {
                         Odak Patoloji Tanı Kalitesini Artırıyor
                     </h1>
                     <p className="text-lg text-muted-foreground">
-                        24 Şubat 2012
+                        5 Nisan 2012
                     </p>
                 </div>
             </section>

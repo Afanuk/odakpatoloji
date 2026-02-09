@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import CountUp from "@/components/CountUp";
 import Link from "next/link";
@@ -46,9 +46,9 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Dr. Fatih Card */}
           <Link href="/hakkimizda">
-            <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
+            <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer h-full group">
               <div className="aspect-video relative rounded-t-lg overflow-hidden">
-                <img src="/hakkimizda-mainpage.png" alt="Hakkımızda" className="w-full h-full object-cover" />
+                <img src="/hakkimizda-mainpage.jpeg" alt="Hakkımızda" className="w-full h-full object-cover" />
               </div>
               <CardHeader>
                 <CardTitle className="text-[#7a1f2b]">Dr. Fatih Kuyucuoğlu</CardTitle>
@@ -57,7 +57,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" className="w-full text-[#7a1f2b] border-[#7a1f2b] hover:bg-[#7a1f2b] hover:text-white">
+                <Button variant="outline" className="w-full text-[#7a1f2b] border-[#7a1f2b] hover:bg-[#7a1f2b] hover:text-white cursor-pointer">
                   Hakkımızda
                 </Button>
               </CardContent>
@@ -66,7 +66,7 @@ export default function Home() {
 
           {/* Testlerimiz Card */}
           <Link href="/testlerimiz">
-            <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
+            <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer h-full group">
               <div className="aspect-video relative rounded-t-lg overflow-hidden">
                 <img src="/testlerimiz-mainpage.jpg" alt="Testlerimiz" className="w-full h-full object-cover" />
               </div>
@@ -77,7 +77,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" className="w-full text-[#7a1f2b] border-[#7a1f2b] hover:bg-[#7a1f2b] hover:text-white">
+                <Button variant="outline" className="w-full text-[#7a1f2b] border-[#7a1f2b] hover:bg-[#7a1f2b] hover:text-white cursor-pointer">
                   Testlerimiz
                 </Button>
               </CardContent>
@@ -86,7 +86,7 @@ export default function Home() {
 
           {/* Cihazlarımız Card */}
           <Link href="/cihazlarimiz">
-            <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
+            <Card className="hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer h-full group">
               <div className="aspect-video relative rounded-t-lg overflow-hidden">
                 <img src="/equipments-mainpage.webp" alt="Cihazlarımız" className="w-full h-full object-cover" />
               </div>
@@ -97,7 +97,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" className="w-full text-[#7a1f2b] border-[#7a1f2b] hover:bg-[#7a1f2b] hover:text-white">
+                <Button variant="outline" className="w-full text-[#7a1f2b] border-[#7a1f2b] hover:bg-[#7a1f2b] hover:text-white cursor-pointer">
                   Cihazlarımız
                 </Button>
               </CardContent>
@@ -107,41 +107,53 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 bg-muted/30">
-        <div className="px-4">
+      <section className="relative py-16 overflow-hidden">
+        {/* Blurred background with fade mask */}
+        <div
+          className="absolute inset-0 bg-muted/30"
+          style={{
+            maskImage: 'linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)',
+            WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)'
+          }}
+        />
+
+        <div className="px-4 relative z-20">
           <h2 className="text-3xl font-bold text-center mb-12 text-[#7a1f2b]">
             Ekibimiz
           </h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <CardHeader>
                 <div className="flex justify-center mb-4">
-                  <Avatar className="h-20 w-20">
-                    <AvatarFallback className="bg-[#7a1f2b] text-white text-xl">NÖ</AvatarFallback>
+                  <Avatar className="h-28 w-28 rounded-xl shadow-md">
+                    <AvatarImage src="/MünevverSolak.jpeg" alt="Münevver Solak" className="object-cover" />
+                    <AvatarFallback className="bg-[#7a1f2b] text-white text-xl rounded-xl">MS</AvatarFallback>
                   </Avatar>
                 </div>
-                <CardTitle className="text-lg">Nigar Özer</CardTitle>
+                <CardTitle className="text-lg">Münevver Solak</CardTitle>
                 <CardDescription>Patoloji Teknisyeni</CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <CardHeader>
                 <div className="flex justify-center mb-4">
-                  <Avatar className="h-20 w-20">
-                    <AvatarFallback className="bg-[#7a1f2b] text-white text-xl">YD</AvatarFallback>
+                  <Avatar className="h-28 w-28 rounded-xl shadow-md">
+                    <AvatarImage src="/SilaCaylak.jpeg" alt="Sıla Çaylak" className="object-cover" />
+                    <AvatarFallback className="bg-[#7a1f2b] text-white text-xl rounded-xl">SÇ</AvatarFallback>
                   </Avatar>
                 </div>
-                <CardTitle className="text-lg">Yeşim Duman</CardTitle>
+                <CardTitle className="text-lg">Sıla Çaylak</CardTitle>
                 <CardDescription>Patoloji Teknisyeni</CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <CardHeader>
                 <div className="flex justify-center mb-4">
-                  <Avatar className="h-20 w-20">
-                    <AvatarFallback className="bg-[#7a1f2b] text-white text-xl">ÖA</AvatarFallback>
+                  <Avatar className="h-28 w-28 rounded-xl shadow-md">
+                    <AvatarImage src="/OzgurAkyol.jpeg" alt="Özgür Akyol" className="object-cover" />
+                    <AvatarFallback className="bg-[#7a1f2b] text-white text-xl rounded-xl">ÖA</AvatarFallback>
                   </Avatar>
                 </div>
                 <CardTitle className="text-lg">Özgür Akyol</CardTitle>
@@ -149,11 +161,12 @@ export default function Home() {
               </CardHeader>
             </Card>
 
-            <Card className="text-center">
+            <Card className="text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <CardHeader>
                 <div className="flex justify-center mb-4">
-                  <Avatar className="h-20 w-20">
-                    <AvatarFallback className="bg-[#7a1f2b] text-white text-xl">FK</AvatarFallback>
+                  <Avatar className="h-28 w-28 rounded-xl shadow-md">
+                    <AvatarImage src="/FadimeKozak.jpeg" alt="Fadime Kozak" className="object-cover" />
+                    <AvatarFallback className="bg-[#7a1f2b] text-white text-xl rounded-xl">FK</AvatarFallback>
                   </Avatar>
                 </div>
                 <CardTitle className="text-lg">Fadime Kozak</CardTitle>
@@ -182,7 +195,7 @@ export default function Home() {
                 <p className="text-sm text-muted-foreground mb-4">
                   Modern ve kullanıcı dostu yeni web sitemiz hizmete girdi.
                 </p>
-                <Button variant="link" className="text-[#7a1f2b] p-0 group-hover:translate-x-1 transition-transform">
+                <Button variant="link" className="text-[#7a1f2b] p-0 group-hover:translate-x-1 transition-transform cursor-pointer">
                   Devamı →
                 </Button>
               </CardContent>
@@ -201,7 +214,7 @@ export default function Home() {
                 <p className="text-sm text-muted-foreground mb-4">
                   Laboratuvarımız yeni cihazlarla donatıldı.
                 </p>
-                <Button variant="link" className="text-[#7a1f2b] p-0 group-hover:translate-x-1 transition-transform">
+                <Button variant="link" className="text-[#7a1f2b] p-0 group-hover:translate-x-1 transition-transform cursor-pointer">
                   Devamı →
                 </Button>
               </CardContent>
@@ -220,7 +233,7 @@ export default function Home() {
                 <p className="text-sm text-muted-foreground mb-4">
                   Kalite standartlarımızı sürekli geliştiriyoruz.
                 </p>
-                <Button variant="link" className="text-[#7a1f2b] p-0 group-hover:translate-x-1 transition-transform">
+                <Button variant="link" className="text-[#7a1f2b] p-0 group-hover:translate-x-1 transition-transform cursor-pointer">
                   Devamı →
                 </Button>
               </CardContent>

@@ -26,7 +26,7 @@ export default function TestlerimizPage() {
                                 </div>
 
                                 <div className="space-y-6">
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">Küçük Biopsi İncelemesi</h3>
                                         <ul className="space-y-2 text-muted-foreground">
                                             <li>• Gastrointestinal sistem örnekleri</li>
@@ -39,14 +39,14 @@ export default function TestlerimizPage() {
                                         </ul>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">Diğer Biopsiler</h3>
                                         <p className="text-muted-foreground">
                                             Eksizyonel örnekler: deri, yumuşak doku ve diğer doku örnekleri
                                         </p>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">Operasyon Spesmenleri</h3>
                                         <ul className="space-y-2 text-muted-foreground">
                                             <li>• Mesane prostat TUR</li>
@@ -57,7 +57,7 @@ export default function TestlerimizPage() {
                                         </ul>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">Kanser Cerrahisi Materyelleri</h3>
                                         <ul className="space-y-2 text-muted-foreground">
                                             <li>• Kolon kanseri</li>
@@ -71,14 +71,14 @@ export default function TestlerimizPage() {
                                         </ul>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">Histokimyasal Boyamalar</h3>
                                         <p className="text-muted-foreground">
                                             PAS, AB, RET, DEMİR, AMİLOİD, MGG boyamaları
                                         </p>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">İmmunohistokimyasal İncelemeler</h3>
                                         <ul className="space-y-2 text-muted-foreground">
                                             <li>• Meme kanseri paneli</li>
@@ -99,14 +99,14 @@ export default function TestlerimizPage() {
                                 </div>
 
                                 <div className="space-y-6">
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">Pap Smear Testi</h3>
                                         <p className="text-muted-foreground">
                                             Papanicolau boyası kullanılarak serviks kanseri taraması
                                         </p>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">İİA Sitolojisi</h3>
                                         <ul className="space-y-2 text-muted-foreground">
                                             <li>• Papanicolau boyaması</li>
@@ -115,7 +115,7 @@ export default function TestlerimizPage() {
                                         </ul>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20">
+                                    <div className="p-6 rounded-xl bg-gradient-to-br from-[#7a1f2b]/5 to-[#7a1f2b]/10 border border-[#7a1f2b]/20 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-3">Diğer Sitolojik İncelemeler</h3>
                                         <ul className="space-y-2 text-muted-foreground">
                                             <li>• İdrar sitolojisi</li>
@@ -126,7 +126,7 @@ export default function TestlerimizPage() {
                                         </ul>
                                     </div>
 
-                                    <div className="p-6 rounded-xl bg-gradient-to-r from-[#7a1f2b]/10 to-slate-100 border border-[#7a1f2b]/20">
+                                    <div className="p-6 rounded-xl bg-gradient-to-r from-[#7a1f2b]/10 to-slate-100 border border-[#7a1f2b]/20 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                                         <h3 className="text-xl font-bold mb-4">Örnekleme Yöntemi</h3>
                                         <p className="text-muted-foreground">
                                             Materyel örnekleme haritalandırma yöntemi ile bilgisayar ortamında hazırlanmaktadır.
