@@ -126,7 +126,7 @@ export default function Home() {
               <CardHeader>
                 <div className="flex justify-center mb-4">
                   <Avatar className="h-28 w-28 rounded-xl shadow-md">
-                    <AvatarImage src="/MünevverSolak.jpeg" alt="Münevver Solak" className="object-cover" />
+                    <AvatarImage src="/MunevverSolak.jpeg" alt="Münevver Solak" className="object-cover" />
                     <AvatarFallback className="bg-[#7a1f2b] text-white text-xl rounded-xl">MS</AvatarFallback>
                   </Avatar>
                 </div>
