@@ -47,12 +47,12 @@ export default function HakkimizdaPage() {
             </section>
 
             {/* Dr. Biography */}
-            <section className="py-20">
+            <section className="py-20 overflow-hidden">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <div className="flex justify-center mb-12 relative isolate">
                             {/* Sunburst Effect */}
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] -z-10 pointer-events-none overflow-hidden">
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] md:w-[800px] md:h-[800px] -z-10 pointer-events-none overflow-hidden">
                                 <div
                                     className="w-full h-full animate-[spin_60s_linear_infinite] opacity-20"
                                     style={{
@@ -68,10 +68,10 @@ export default function HakkimizdaPage() {
                                 alt="Dr. Mehmet Fatih Kuyucuoğlu"
                                 width={300}
                                 height={300}
-                                className="rounded-full object-cover"
+                                className="rounded-full object-cover object-top w-[220px] h-[220px] md:w-[300px] md:h-[300px]"
                                 style={{
                                     maskImage: 'radial-gradient(circle, black 65%, transparent 75%)',
-                                    WebkitMaskImage: 'radial-gradient(circle, black 60%, transparent 70%)'
+                                    WebkitMaskImage: 'radial-gradient(circle, black 65%, transparent 75%)'
                                 }}
                             />
                         </div>
