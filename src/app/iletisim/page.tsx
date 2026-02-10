@@ -183,8 +183,8 @@ export default function IletisimPage() {
                                             </div>
                                             <div>
                                                 <h3 className="font-bold mb-1">E-posta</h3>
-                                                <a href="mailto:info@odakpatoloji.com.tr" className="text-muted-foreground hover:text-[#7a1f2b] transition-colors">
-                                                    info@odakpatoloji.com.tr
+                                                <a href="mailto:odak.patoloji@hotmail.com" className="text-muted-foreground hover:text-[#7a1f2b] transition-colors">
+                                                    odak.patoloji@hotmail.com
                                                 </a>
                                             </div>
                                         </div>
