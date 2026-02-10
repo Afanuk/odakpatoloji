@@ -9,7 +9,7 @@ export default function YenilendikPage() {
             <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/HaberPage.png"
+                        src="/PageHaber.png"
                         alt="Haberler"
                         fill
                         style={{ objectFit: 'contain', objectPosition: 'top' }}

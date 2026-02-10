@@ -60,7 +60,7 @@ export default function IletisimPage() {
             )}
             {/* Hero Section */}
             <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-[url('/IletisimPage.png')] bg-contain bg-top bg-no-repeat opacity-100" />
+                <div className="absolute inset-0 bg-[url('/PageIletisim.png')] bg-contain bg-top bg-no-repeat opacity-100" />
                 <div className="absolute bottom-0 left-0 right-0 z-10 container text-center pb-8 mx-auto">
                     <h1 className="text-5xl md:text-6xl font-bold text-[#7a1f2b] mb-4">
                         İletişim

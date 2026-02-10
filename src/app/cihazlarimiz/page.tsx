@@ -62,7 +62,7 @@ export default function CihazlarimizPage() {
         <div className="min-h-screen">
             {/* Hero Section */}
             <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-[url('/CihazlarimizPage.png')] bg-contain bg-top bg-no-repeat opacity-100" />
+                <div className="absolute inset-0 bg-[url('/PageCihazlarimiz.png')] bg-contain bg-top bg-no-repeat opacity-100" />
                 <div className="absolute bottom-0 left-0 right-0 z-10 container text-center pb-8 mx-auto">
                     <h1 className="text-5xl md:text-6xl font-bold text-[#7a1f2b] mb-4">
                         Cihazlarımız

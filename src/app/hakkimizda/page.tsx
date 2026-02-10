@@ -7,7 +7,7 @@ export default function HakkimizdaPage() {
             <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0">
                     <Image
-                        src="/HakkimizdaPage.png"
+                        src="/PageHakkimizda.png"
                         alt="Hakkımızda"
                         fill
                         style={{ objectFit: 'contain', objectPosition: 'top' }}
