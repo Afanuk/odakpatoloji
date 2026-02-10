@@ -8,7 +8,7 @@ export default function Footer() {
                     {/* Logo and Info */}
                     <div className="flex flex-col items-center">
                         <Image
-                            src="/headerlogo.png"
+                            src="/analogo.png"
                             alt="Odak Patoloji Logo"
                             width={160}
                             height={48}

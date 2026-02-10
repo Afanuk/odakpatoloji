@@ -50,7 +50,7 @@ export default function Header() {
                         {/* Logo */}
                         <Link href="/" className="flex items-center gap-3">
                             <Image
-                                src="/headerlogo.png"
+                                src="/analogo.png"
                                 alt="Odak Patoloji Logo"
                                 width={180}
                                 height={54}
