@@ -29,16 +29,16 @@ export default function HakkimizdaPage() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-                            Özel Odak Patoloji Laboratuarı
+                            Odak Patoloji Laboratuarı
                         </h2>
                         <div className="prose prose-lg max-w-none">
                             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                                Özel Odak Patoloji Laboratuarı Manisa bölgesinin tek patoloji merkezi olarak 1998 yılından bugüne
+                                Odak Patoloji Laboratuarı Manisa bölgesinin tek patoloji merkezi olarak 1998 yılından bugüne
                                 Dr. M. Fatih Kuyucuoğlu yönetiminde Salihli'de hizmet vermeye devam ediyor.
                             </p>
                             <p className="text-lg text-muted-foreground leading-relaxed">
                                 Salihlimize, çevre il ve ilçelere patoloji hizmeti vermekte olan ve günden güne büyüyen
-                                Özel Odak Patoloji Laboratuarı Yapı Kredi Bankası karşısındaki merkezinde 24 Şubat 2012
+                                Odak Patoloji Laboratuarı Yapı Kredi Bankası karşısındaki merkezinde 24 Şubat 2012
                                 tarihinde yeni bir inceleme yöntemine başlanmıştır.
                             </p>
                         </div>
@@ -166,7 +166,7 @@ export default function HakkimizdaPage() {
                                 </div>
                                 <div className="flex-1 pb-6 md:pb-8 border-l-2 border-slate-200 pl-3 md:pl-6">
                                     <p className="text-muted-foreground font-semibold text-[#7a1f2b] mb-2">
-                                        Salihli'de Özel Odak Patoloji Laboratuvarı'nı kurdu.
+                                        Salihli'de Odak Patoloji Laboratuvarı'nı kurdu.
                                     </p>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ export default function HakkimizdaPage() {
                                 </div>
                                 <div className="flex-1 pb-6 md:pb-8 border-l-2 border-slate-200 pl-3 md:pl-6">
                                     <p className="text-muted-foreground font-semibold text-[#7a1f2b] mb-2">
-                                        Özel Odak Patoloji Yöneticisi ve Patoloji Uzmanı
+                                        Odak Patoloji Yöneticisi ve Patoloji Uzmanı
                                     </p>
                                     <p className="text-sm md:text-base text-muted-foreground">
                                         Manisa bölgesine kesintisiz patoloji hizmeti sunmaya devam ediyor.

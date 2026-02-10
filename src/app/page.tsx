@@ -13,7 +13,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/MainPage.png')] bg-contain bg-top bg-no-repeat opacity-100" />
         <div className="absolute bottom-0 left-0 right-0 z-10 container text-center pb-8 mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-[#7a1f2b] mb-4">
-            Özel Odak Patoloji
+            Odak Patoloji
           </h1>
           <p className="text-xl text-muted-foreground">
             Salihli - Patoloji ve Sitoloji Laboratuarı
@@ -226,7 +226,7 @@ export default function Home() {
               <CardHeader>
                 <Badge className="w-fit mb-2 bg-[#7a1f2b] hover:bg-[#5a1620]">Duyuru</Badge>
                 <CardTitle className="text-lg group-hover:text-[#7a1f2b] transition-colors">
-                  ÖzelOdak Patoloji tanı kalitesini arttırıyor
+                  Odak Patoloji tanı kalitesini arttırıyor
                 </CardTitle>
               </CardHeader>
               <CardContent>

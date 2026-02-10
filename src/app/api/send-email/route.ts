@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
         // Send email using Resend
         const data = await resend.emails.send({
             from: 'onboarding@resend.dev', // Resend test domain
-            to: 'info@odakpatoloji.com.tr',
+            to: 'odak.patoloji@hotmail.com',
             subject: `Yeni İletişim Formu Mesajı - ${name}`,
             html: `
                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

@@ -30,8 +30,8 @@ export default function Footer() {
                                 </a>
                             </p>
                             <p>
-                                <a href="mailto:info@odakpatoloji.com.tr" className="hover:text-[#7a1f2b] transition-colors">
-                                    ✉️ info@odakpatoloji.com.tr
+                                <a href="mailto:odak.patoloji@hotmail.com" className="hover:text-[#7a1f2b] transition-colors">
+                                    ✉️ odak.patoloji@hotmail.com
                                 </a>
                             </p>
                             <p>
